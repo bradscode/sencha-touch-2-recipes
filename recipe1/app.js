@@ -17,7 +17,7 @@ Ext.define('recipe.controller.SampleController', {
 
   onRoute: function (season) {
     var tabPanel = this.getTabPanel(),
-    target = tabPanel.down('container[title=' + season + ']');
+        target = tabPanel.down('container[title=' + season + ']');
     tabPanel.setActiveItem(target);
   },
 
