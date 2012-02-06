@@ -36,16 +36,20 @@ Ext.application({
       fullscreen: true,
       items: [
         {
-          title: 'spring'
+          title: 'spring',
+          html: '<img src="images/spring.jpg" />'
         },
         {
-          title: 'summer'
+          title: 'summer',
+          html: '<img src="images/summer.jpg" />'
         },
         {
-          title: 'fall'
+          title: 'fall',
+          html: '<img src="images/fall.jpg" />'
         },
         {
-          title: 'winter'
+          title: 'winter',
+          html: '<img src="images/winter.jpg" />'
         }
       ]
     });
