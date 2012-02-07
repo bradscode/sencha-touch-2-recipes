@@ -2,7 +2,6 @@ Sencha Touch 2 Recipes
 =======
 
 This is a tiny collection of sencha touch 2 recipes.
-
 http://dev.ariel-networks.com/
 
 -----
