@@ -64,7 +64,7 @@ Ext.application({
           flex: 1,
           defaults: {
             xtype: 'button',
-            style: 'margin: 0.5em;',
+            style: 'margin: 0.3em;',
             ui: 'app'
           },
           items: [
