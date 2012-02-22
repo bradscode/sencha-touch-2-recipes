@@ -1,0 +1,32 @@
+// Overwrites global css variables.
+$base-color: #000;
+$active-color: #E3E3E3;
+$page-bg-color: #fff;
+$base-gradient: 'flat';
+$font-family: 'sans-serif';
+$button-radius: .2em;
+$list-bg-color: #fff;
+$list-color: #666;
+
+// Include Sencha Touch's styles.
+@import 'sencha-touch/default/all';
+@include sencha-panel;
+@include sencha-buttons;
+@include sencha-sheet;
+@include sencha-picker;
+@include sencha-tabs;
+@include sencha-toolbar;
+@include sencha-toolbar-forms;
+@include sencha-indexbar;
+@include sencha-list;
+@include sencha-layout;
+@include sencha-carousel;
+@include sencha-form;
+@include sencha-msgbox;
+@include sencha-loading-spinner;
+@include pictos-iconmask('list');
+
+// Define 'app' button colors.
+@include sencha-button-ui('app', #D14836, 'flat');
+.x-button-app .x-button-label { color: #fff; }
+
