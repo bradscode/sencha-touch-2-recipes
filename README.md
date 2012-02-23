@@ -8,6 +8,9 @@ http://dev.ariel-networks.com/
 Recipes:1 To emulate the browser back button. 
           http://recipe1.senchafy.com/#page/spring
 
+Recipes:2 Create original themes.
+          http://recipe2.senchafy.com/
+
 license
 -------
 
