@@ -28,6 +28,9 @@ Ext.define('recipe.controller.SampleController', {
 
 Ext.application({
   name: 'recipe',
+  viewport: {
+    autoMaximize: true
+  },
   controllers: [
     'SampleController'
   ],
